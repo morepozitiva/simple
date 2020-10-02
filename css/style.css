@@ -1,0 +1,51 @@
+html{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ffffff;
+}
+header{
+	text-align: center;
+}
+header>.top{
+	background: #a52a2a;
+	color: #ffffff;
+	height: 30%;
+}
+header>.sunset>img{
+	width: 100%;
+}
+.container{
+	font-size: 18px;
+}
+span.newcolor {
+    color: #2438ff;
+}
+/* ul css */
+.spisokg {
+    width: 960px;
+    margin: 0 auto;
+}
+.spisokg ul {
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+}
+.spisokg ul>li {
+    float: left;
+    margin: 0 5px;
+    border: dotted;
+}
+/* end ul css */
+footer{
+	background-color: #000000;
+	height: 10%;
+	padding: 5px 0;
+}
+footer>.copyright{
+	text-align: center;
+   color: #ffffff;
+   font-size: 20px;
+}
